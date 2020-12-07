@@ -10,35 +10,43 @@
 
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <dic class="col-8 offset-2">
-                <div class="card mt-5">
-                    <div class="card-header">
-                        <h2 class="card-title">Stimme Jetzt ab</h2>
-                    </div>
-                    <div class="card-body">
-                        <div class="media">
-                            <img src="https://via.placeholder.com/64" alt="" class="mr-3">
-                            <div class="media-body">
-                                <h5>Spagetti Bolognese
-                                    <span class="float-right text-primary">
-                                        <i class="fa fa-chevron-up"><strong>23</strong></i>
-                                    </span>
-                                </h5>
-                                <div class="">
-                                    Ein Nudelgericht mit Hackfleischsoße.
+    <div id="app">
+        <div class="container">
+            <div class="row">
+                <dic class="col-8 offset-2">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <h2 class="card-title">Stimme Jetzt ab</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="https://via.placeholder.com/64" alt="" class="mr-3">
+                                <div class="media-body">
+                                    <h5>Spagetti Bolognese
+                                        <span class="float-right text-primary">
+                                            <i class="fa fa-chevron-up"><strong>23</strong></i>
+                                        </span>
+                                    </h5>
+                                    <div class="">
+                                        Ein Nudelgericht mit Hackfleischsoße.
+                                    </div>
+                                    <small class="text-muted">Eingereicht von Italien</small>
                                 </div>
-                                <small class="text-muted">Eingereicht von Italien</small>
                             </div>
                         </div>
                     </div>
-                </div>
-            </dic>
+                </dic>
+            </div>
         </div>
     </div>
+    
 
     <!-- Vue JS  -->
     <script src="http://unpkg.com/vue"></script>
+    <script>
+        new Vue({
+            el: "#app",
+        })
+    </script>
 </body>
 </html>
